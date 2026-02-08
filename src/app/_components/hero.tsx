@@ -34,8 +34,9 @@ export function Hero() {
 
             <div>
               <a
-                className="bg-green-500 px-5 py-2 rounded-md font-semibold flex items-center justify-center w-fit gap-2 hover:bg-black transition-all"
+                className="bg-green-500 px-5 py-2 rounded-md font-semibold flex items-center justify-center w-fit gap-2 hover:bg-green-700 transition-all"
                 href="#"
+                title="Whatsapp"
               >
                 <WhatsappLogoIcon className="w-5 h-5" />
                 Contato via whatsapp

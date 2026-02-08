@@ -66,16 +66,18 @@ export function About() {
 
             <div className="flex gap-2 flex-col md:flex-row">
               <a
+                className="bg-green-500 px-5 py-2 rounded-md font-semibold flex items-center justify-center w-fit gap-2 hover:bg-green-700 transition-all text-white" 
                 href="#"
-                className="bg-[#e84c3d] text-white flex items-center justify-center w-fit gap-2 px-4 py-2 hover:bg-black duration-300"
+                title="Whatsapp"
               >
-                <WhatsappLogoIcon className="w-5 h-5 text-white" />
-                Contato via WhtasApp
+                <WhatsappLogoIcon className="w-5 h-5" />
+                Contato via whatsapp
               </a>
 
               <a
                 href="#"
-                className="flex items-center justify-center w-fit gap-2 px-4 py-2 hover:bg-black hover:text-white duration-300"
+                className="flex items-center justify-center w-fit gap-2 px-4 py-2 hover:bg-black hover:text-white duration-300 rounded-md"
+                title="Endereço"
               >
                 <MapPinIcon className="w-5 h-5" />
                 Endereço da loja
