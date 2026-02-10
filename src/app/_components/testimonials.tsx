@@ -19,28 +19,28 @@ const testimonials = [
   {
     content:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias sunt accusantium atque aut odit molestiae unde soluta et consectetur sed fugiat esse quam, ducimus voluptatibus ex laudantium recusandae modi labore?",
-    author: "Amanda Torrigo",
+    author: "Sem nome",
     role: "Tutora da Luna (Golden Retriever)",
     image: tutor1,
   },
   {
     content:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias sunt accusantium atque aut odit molestiae unde soluta et consectetur sed fugiat esse quam, ducimus voluptatibus ex laudantium recusandae modi labore?",
-    author: "Amanda Torrigo",
+    author: "Sem nome",
     role: "Tutora da Luna (Golden Retriever)",
     image: tutor1,
   },
   {
     content:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias sunt accusantium atque aut odit molestiae unde soluta et consectetur sed fugiat esse quam, ducimus voluptatibus ex laudantium recusandae modi labore?",
-    author: "Amanda Torrigo",
+    author: "Sem nome",
     role: "Tutora da Luna (Golden Retriever)",
     image: tutor1,
   },
   {
     content:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias sunt accusantium atque aut odit molestiae unde soluta et consectetur sed fugiat esse quam, ducimus voluptatibus ex laudantium recusandae modi labore?",
-    author: "Amanda Torrigo",
+    author: "Sem nome",
     role: "Tutora da Luna (Golden Retriever)",
     image: tutor1,
   },

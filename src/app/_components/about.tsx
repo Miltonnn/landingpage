@@ -9,7 +9,7 @@ import {
 
 export function About() {
   return (
-    <section className="bg-[#fdfec] py-16">
+    <section className="bg-[#fdf6ec] py-16">
       <div className="container px-4 mx-auto">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div className="relative">

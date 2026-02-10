@@ -90,7 +90,7 @@ export function Services() {
               {services.map((item, index) => (
                 <div
                   key={index}
-                  className="flex-[0_0_100%] min-w-0 md:flex-[0_0_calc(100%/3)] px-3"
+                  className="flex-[0_0_100%] min-w-0 md:flex-[0_0_calc(100%/2)] xl:flex-[0_0_calc(100%/3)] px-3"
                 >
                   <article className="bg-[#1e203b] text-white rounded-2xl p-6 space-y-4 h-full flex-col">
                     <div className="flex-1 felx items-start justify-between">
