@@ -6,6 +6,7 @@ import {
   MapPinIcon,
   WhatsappLogoIcon,
 } from "@phosphor-icons/react/dist/ssr";
+import { WHATSAPP_LINK } from "@/lib/whatsapp";
 
 export function About() {
   return (
@@ -68,7 +69,7 @@ export function About() {
               <a
                 className="bg-green-500 px-5 py-2 rounded-md font-semibold flex items-center justify-center w-fit gap-2 hover:bg-green-700 transition-all text-white"
                 target="_blank"
-                href={`https://wa.me/5511965152919?text=Olá vim pelo site e gostaria de mais informações`}
+                href={WHATSAPP_LINK}
                 title="Whatsapp"
               >
                 <WhatsappLogoIcon className="w-5 h-5" />

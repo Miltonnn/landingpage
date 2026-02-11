@@ -2,6 +2,7 @@ import { WhatsappLogoIcon } from "@phosphor-icons/react/dist/ssr";
 import dogImg from "../../../public/hero-dog.webp";
 import catImg from "../../../public/cat-hero.png";
 import Image from "next/image";
+import { WHATSAPP_LINK } from "@/lib/whatsapp";
 
 export function Hero() {
   return (
@@ -38,9 +39,9 @@ export function Hero() {
             <div>
               <a
                 data-aos="fade-up"
-                className="bg-green-500 px-5 py-2 rounded-md font-semibold flex items-center justify-center w-fit gap-2 hover:bg-green-700 transition-all"
+                className="bg-green-500 px-5 py-2 rounded-md font-semibold flex items-center justify-center w-fit gap-2 hover:bg-green-700 duration-400"
                 target="_blank"
-                href={`https://wa.me/5511965152919?text=Olá vim pelo site e gostaria de mais informações`}
+                href={WHATSAPP_LINK}
                 title="Whatsapp"
               >
                 <WhatsappLogoIcon className="w-5 h-5" />

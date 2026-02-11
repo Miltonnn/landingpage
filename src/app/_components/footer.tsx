@@ -10,6 +10,8 @@ import {
   LinkedinLogoIcon,
   WhatsappLogoIcon,
 } from "@phosphor-icons/react/dist/ssr";
+import { WHATSAPP_LINK } from "@/lib/whatsapp";
+import { SOCIAL_LINKS } from "@/lib/social-links";
 
 const brands = [
   { name: "Royal Canin", logo: royal },
@@ -61,7 +63,7 @@ export function Footer() {
             <a
               className="bg-green-500 px-4 py-2 rounded-md hover:bg-green-700 duration-300 flex items-center gap-2 w-fit"
               target="_blank"
-              href={`https://wa.me/5511965152919?text=Olá vim pelo site e gostaria de mais informações`}
+              href={WHATSAPP_LINK}
               title="Contato via Whatsapp"
             >
               <WhatsappLogoIcon />
@@ -77,13 +79,13 @@ export function Footer() {
           <div>
             <h3 className="text-2xl font-semibold mb-2">Redes Sociais</h3>
             <div className="flex items-center gap-4">
-              <a href="#" title="Linkedin" target="_blank">
+              <a href={SOCIAL_LINKS.linkedin} title="Linkedin" target="_blank">
                 <LinkedinLogoIcon className="w-6 h-6 hover:opacity-50 duration-300" />
               </a>
-              <a href="#" title="Instagram" target="_blank">
+              <a href={SOCIAL_LINKS.instagram} title="Instagram" target="_blank">
                 <InstagramLogoIcon className="w-6 h-6 hover:opacity-50 duration-300" />
               </a>
-              <a href="#" title="Github" target="_blank">
+              <a href={SOCIAL_LINKS.github} title="Github" target="_blank">
                 <GithubLogoIcon className="w-6 h-6 hover:opacity-50 duration-300" />
               </a>
             </div>

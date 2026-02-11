@@ -12,6 +12,7 @@ import {
   Clock,
 } from "lucide-react";
 import { WhatsappLogoIcon } from "@phosphor-icons/react/dist/ssr";
+import { WHATSAPP_LINK } from "@/lib/whatsapp";
 
 const services = [
   {
@@ -116,7 +117,7 @@ export function Services() {
                       <a
                         className="flex items-center justify-center gap-2 hover:bg-green-700 duration-300 p-2 px-4 rounded"
                         target="_blank"
-                        href={`https://wa.me/5511965152919?text=Olá vim pelo site e gostaria de mais informações sobre ${item.title}`}
+                        href={WHATSAPP_LINK}
                         title="Entrar em contato"
                       >
                         Entrar em contato
