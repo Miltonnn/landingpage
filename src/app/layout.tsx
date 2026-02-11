@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "DOGGY",
+  title: "Pet Shop Dev",
   description: "Seu pet merece cuidado, carinho e atenção especial",
 };
 
