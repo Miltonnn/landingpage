@@ -24,7 +24,7 @@ const brands = [
 
 export function Footer() {
   return (
-    <section className="bg-[#e84c3d] py-16 text-white">
+    <section className="bg-[#e84c3d] py-16 text-white" id="clientes">
       <div className="container mx-auto px-4" data-aos="fade-up-right">
         <div className="border-b border-white/20 pb-8">
           <h4 className="text-3xl font-semibold mb-8 text-center">

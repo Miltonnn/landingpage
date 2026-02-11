@@ -6,7 +6,7 @@ import { WHATSAPP_LINK } from "@/lib/whatsapp";
 
 export function Hero() {
   return (
-    <section className="bg-[#e84c3d] text-white relative overflow-hidden">
+    <section className="bg-[#e84c3d] text-white relative overflow-hidden pt-20" id="home">
       <div>
         <Image
           src={dogImg}
