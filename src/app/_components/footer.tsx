@@ -23,7 +23,7 @@ const brands = [
 export function Footer() {
   return (
     <section className="bg-[#e84c3d] py-16 text-white">
-      <div className="container mx-auto px-4">
+      <div className="container mx-auto px-4" data-aos="fade-up-right">
         <div className="border-b border-white/20 pb-8">
           <h4 className="text-3xl font-semibold mb-8 text-center">
             Marcas que trabalhamos
@@ -60,7 +60,8 @@ export function Footer() {
             </p>
             <a
               className="bg-green-500 px-4 py-2 rounded-md hover:bg-green-700 duration-300 flex items-center gap-2 w-fit"
-              href="#"
+              target="_blank"
+              href={`https://wa.me/5511965152919?text=Olá vim pelo site e gostaria de mais informações`}
               title="Contato via Whatsapp"
             >
               <WhatsappLogoIcon />

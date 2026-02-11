@@ -67,7 +67,7 @@ export function Testimonials() {
           Depoimentos Dos Nossos Clientes
         </h2>
 
-        <div className="relative max-w-4xl mx-auto">
+        <div className="relative max-w-4xl mx-auto" data-aos="fade-up-left">
           <div className="overflow-hidden" ref={emblaRef}>
             <div className="flex">
               {testimonials.map((item, index) => (

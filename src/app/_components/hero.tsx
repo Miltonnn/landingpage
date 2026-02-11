@@ -21,11 +21,14 @@ export function Hero() {
       <div className="container mx-auto py-16 md:pb-0 px-4">
         <article className="grid grid-cols-1 lg:grid-cols-2 gap-8 relative">
           <div className="space-y-6">
-            <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold leading-10">
+            <h1
+              className="text-3xl md:text-4xl lg:text-5xl font-bold leading-10"
+              data-aos="fade-down"
+            >
               Seu pet merece cuidado, carinho e atenção especial
             </h1>
 
-            <p className="lg:text-lg">
+            <p className="lg:text-lg" data-aos="fade-right">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Reiciendis laborum odit eligendi quis, neque, distinctio
               consectetur culpa, rem sint perferendis sapiente dolore debitis.
@@ -34,8 +37,10 @@ export function Hero() {
 
             <div>
               <a
+                data-aos="fade-up"
                 className="bg-green-500 px-5 py-2 rounded-md font-semibold flex items-center justify-center w-fit gap-2 hover:bg-green-700 transition-all"
-                href="#"
+                target="_blank"
+                href={`https://wa.me/5511965152919?text=Olá vim pelo site e gostaria de mais informações`}
                 title="Whatsapp"
               >
                 <WhatsappLogoIcon className="w-5 h-5" />

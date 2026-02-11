@@ -84,7 +84,7 @@ export function Services() {
       <div className="container mx-auto px-4">
         <h2 className="text-4xl font-bold mb-12">Serviços</h2>
 
-        <div className="relative">
+        <div className="relative" data-aos="fade-up-right">
           <div className="overflow-hidden" ref={emblaRef}>
             <div className="flex">
               {services.map((item, index) => (
@@ -115,7 +115,8 @@ export function Services() {
 
                       <a
                         className="flex items-center justify-center gap-2 hover:bg-green-700 duration-300 p-2 px-4 rounded"
-                        href="#"
+                        target="_blank"
+                        href={`https://wa.me/5511965152919?text=Olá vim pelo site e gostaria de mais informações sobre ${item.title}`}
                         title="Entrar em contato"
                       >
                         Entrar em contato
@@ -143,7 +144,6 @@ export function Services() {
           >
             <ChevronRight className="w-6 h-6 text-gray-600" />
           </button>
-
         </div>
       </div>
     </section>
