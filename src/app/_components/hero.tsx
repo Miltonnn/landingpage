@@ -40,7 +40,7 @@ export function Hero() {
               Explicabo, nostrum. Optio consectetur officia harum quis.
             </p>
 
-            <div className="flex items-center gap-5">
+            <div className="flex flex-col md:flex-row items-start md:items-center gap-5">
               <a
                 data-aos="fade-up"
                 className="bg-green-500 px-5 py-2 rounded-md font-semibold flex items-center justify-center w-fit gap-2 hover:bg-green-700 transition duration-500"
