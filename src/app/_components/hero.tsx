@@ -3,10 +3,14 @@ import dogImg from "../../../public/hero-dog.webp";
 import catImg from "../../../public/cat-hero.png";
 import Image from "next/image";
 import { WHATSAPP_LINK } from "@/lib/whatsapp";
+import { MoveRightIcon } from "lucide-react";
 
 export function Hero() {
   return (
-    <section className="bg-[#e84c3d] text-white relative overflow-hidden pt-20" id="home">
+    <section
+      className="bg-[#e84c3d] text-white relative overflow-hidden pt-40"
+      id="home"
+    >
       <div>
         <Image
           src={dogImg}
@@ -36,16 +40,26 @@ export function Hero() {
               Explicabo, nostrum. Optio consectetur officia harum quis.
             </p>
 
-            <div>
+            <div className="flex items-center gap-5">
               <a
                 data-aos="fade-up"
-                className="bg-green-500 px-5 py-2 rounded-md font-semibold flex items-center justify-center w-fit gap-2 hover:bg-green-700 duration-400"
+                className="bg-green-500 px-5 py-2 rounded-md font-semibold flex items-center justify-center w-fit gap-2 hover:bg-green-700 transition duration-500"
                 target="_blank"
                 href={WHATSAPP_LINK}
                 title="Whatsapp"
               >
                 <WhatsappLogoIcon className="w-5 h-5" />
                 Contato via whatsapp
+              </a>
+              <a
+                data-aos="fade-up"
+                className="outline outline-1 outline-gray-50 hover:bg-black hover:outline-black transition duration-500 px-5
+                py-2 rounded-md font-semibold flex items-center justify-center w-fit gap-2 "
+                href="#contato"
+                title="Contato"
+              >
+                Saiba Mais
+                <MoveRightIcon className="w-5 h-5" />
               </a>
             </div>
 

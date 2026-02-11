@@ -67,7 +67,7 @@ export function About() {
 
             <div className="flex gap-2 flex-col md:flex-row">
               <a
-                className="bg-green-500 px-5 py-2 rounded-md font-semibold flex items-center justify-center w-fit gap-2 hover:bg-green-700 transition-all text-white"
+                className="bg-green-500 px-5 py-2 rounded-md font-semibold flex items-center justify-center w-fit gap-2 hover:bg-green-700 transition-all text-white transition duration-300"
                 target="_blank"
                 href={WHATSAPP_LINK}
                 title="Whatsapp"
@@ -78,7 +78,7 @@ export function About() {
 
               <a
                 href="#"
-                className="flex items-center justify-center w-fit gap-2 px-4 py-2 hover:bg-black hover:text-white duration-300 rounded-md"
+                className="flex items-center justify-center w-fit gap-2 px-4 py-2 hover:bg-black hover:text-white transition duration-300 rounded-md"
                 title="Endereço"
               >
                 <MapPinIcon className="w-5 h-5" />

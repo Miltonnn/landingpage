@@ -1,8 +1,10 @@
 "use client";
 
+import logo from "../../../public/logo.webp";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { MobileNav } from "./mobile-nav";
+import Image from "next/image";
 
 const NAV_LINKS = [
   { label: "Home", href: "#home" },
@@ -15,9 +17,12 @@ const NAV_LINKS = [
 export function Header() {
   return (
     <header className="fixed top-0 z-50 w-full border-b bg-background/80 backdrop-blur">
-      <div className="container mx-auto flex h-16 items-center justify-between px-4">
+      <div className="container mx-auto flex h-auto items-center justify-between px-4">
         <Link href="#home" className="font-bold text-lg">
-          SuaLogo
+          <Image
+           src={logo}
+           alt="Logo cachorro"
+           className="w-30 h-30"/>
         </Link>
 
         {/* Desktop */}
@@ -26,7 +31,9 @@ export function Header() {
             <Link
               key={link.href}
               href={link.href}
-              className="text-md font-medium transition-colors hover:text-primary hover:text-white hover:bg-black p-2 rounded-md duration-500"
+              title={link.label}
+              className="text-md font-medium transition-colors 
+              hover:text-primary hover:text-white hover:bg-black p-2 rounded-md duration-500"
             >
               {link.label}
             </Link>
