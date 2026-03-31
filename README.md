@@ -52,4 +52,5 @@ npm install
 
 # Rode o servidor de desenvolvimento
 npm run dev
-
+```
+## Acessar projeto - https://landingpage-ecru-gamma.vercel.app/
